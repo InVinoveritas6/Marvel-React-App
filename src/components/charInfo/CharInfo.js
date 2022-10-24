@@ -47,7 +47,7 @@ const CharInfo = (props) => {
         </div>
     )
 }
-
+console.log('hi');
 const View = ({char}) => {
     const {name, description, thumbnail, homepage, wiki, comics} = char;
 
